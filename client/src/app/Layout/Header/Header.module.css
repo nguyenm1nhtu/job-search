@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    position: fixed;
+    height: var(--header-height);
+    background-color: #fff;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e8ebed;
+    padding: 0 40px;
+    gap: 30px;
+    z-index: 11;
+}
+
+.divider {
+    height: 100%;
+    width: 1px;
+    background: linear-gradient(0deg, #fff, #dadada 50.45%, #fff);
+}
