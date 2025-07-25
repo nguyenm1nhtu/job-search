@@ -1,0 +1,79 @@
+{
+    "dropdowns": [
+        {
+            "id": "createCV",
+            "title": "Tạo CV",
+            "items": [
+                {
+                    "section": null,
+                    "items": [
+                        {
+                            "id": "cv-manage",
+                            "title": "Quản lý CV",
+                            "href": "#quan-ly-cv",
+                            "icon": "/img/header/cv-manage.png"
+                        },
+                        {
+                            "id": "cv-upload",
+                            "title": "Tải CV lên",
+                            "href": "#tai-cv-len",
+                            "icon": "/img/header/cv-upload.png"
+                        }
+                    ]
+                },
+                {
+                    "section": "Các mẫu CV phổ biến",
+                    "items": [
+                        {
+                            "id": "cv-simple",
+                            "title": "Mẫu CV đơn giản",
+                            "href": "#mau-cv-don-gian",
+                            "icon": "/img/header/cube.png"
+                        },
+                        {
+                            "id": "cv-impressive",
+                            "title": "Mẫu CV ấn tượng",
+                            "href": "#mau-cv-an-tuong",
+                            "icon": "/img/header/compass.png"
+                        },
+                        {
+                            "id": "cv-professional",
+                            "title": "Mẫu CV chuyên nghiệp",
+                            "href": "#mau-cv-chuyen-nghiep",
+                            "icon": "/img/header/pen-tool.png"
+                        },
+                        {
+                            "id": "cv-modern",
+                            "title": "Mẫu CV hiện đại",
+                            "href": "#mau-cv-hien-dai",
+                            "icon": "/img/header/star.png"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "tools",
+            "title": "Công cụ",
+            "items": [
+                {
+                    "section": null,
+                    "items": [
+                        {
+                            "id": "mbti",
+                            "title": "Trắc nghiệm tính cách",
+                            "href": "#quan-ly-cv",
+                            "icon": "/img/header/mbti.png"
+                        },
+                        {
+                            "id": "gross-net",
+                            "title": "Tính lương Gross-Net",
+                            "href": "#tai-cv-len",
+                            "icon": "/img/header/gross-net.png"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

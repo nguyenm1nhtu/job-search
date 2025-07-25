@@ -1,0 +1,126 @@
+@import 'tailwindcss';
+
+:root {
+    --primary-color: #f05123;
+    --notification-color: #da4538;
+    --invalid-color: #f33a58;
+    --invalid-bg-color: #eedce4;
+    --text-color: rgb(155, 155, 155);
+    --disabled-btn: #ccc;
+    --disabled-text-btn: #757575;
+    --recuitment-color: #00b14f;
+    --header-height: 74px;
+    --carousel-height: 300px;
+    --search-bar-height: 60px;
+    --top-section-width: 960px;
+}
+
+@layer base {
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+        font-optical-sizing: auto;
+        font-size: 1.4rem;
+        line-height: 1.5;
+        text-rendering: optimizeSpeed;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    ul,
+    ol,
+    li,
+    figure,
+    figcaption,
+    blockquote,
+    dl,
+    dd {
+        margin: 0;
+        padding: 0;
+    }
+
+    input,
+    button,
+    textarea,
+    select,
+    form {
+        margin: 0;
+        padding: 0;
+        border: none;
+        outline: none;
+        font: inherit;
+    }
+
+    button:disabled {
+        background: var(--disabled-btn) !important;
+        color: var(--disabled-text-btn) !important;
+        cursor: not-allowed !important;
+        opacity: 1;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+}
+
+@font-face {
+    font-family: 'iconFont';
+    src: url('/fonts/venite-adoremus-font/VeniteAdoremusStraight-Yzo6v.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monsterrat';
+    src: url('/fonts/Monsterrat/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes fromLeftToRight {
+    0% {
+        opacity: 0;
+        transform: translateX(4rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animated-leftToRight {
+    animation: fromLeftToRight 1.5s ease-out forwards;
+}
+
+.paddingContainer {
+    padding-left: 120px;
+    padding-right: 120px;
+}

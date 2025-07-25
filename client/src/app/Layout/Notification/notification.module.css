@@ -1,0 +1,117 @@
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    user-select: none;
+    color: black;
+    height: 100%;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.notifyContainer {
+    background-color: rgba(204, 204, 204, 0.3);
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.notifyContainer:hover {
+    background-color: #dfdfdf;
+}
+
+.notifyCount {
+    position: absolute;
+    background-color: var(--notification-color);
+    border-radius: 9999px;
+    width: 1.75rem;
+    height: 1.5rem;
+    transform: translate(-50%, -50%);
+    right: 20%;
+}
+
+.items:hover {
+    color: var(--primary-color);
+}
+
+.dropdownItem {
+    padding: 0.75rem 1.75rem;
+    position: relative;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.dropdownItem:hover {
+    color: var(--primary-color);
+    background-color: rgba(204, 204, 204, 0.2);
+}
+
+.caret {
+    position: absolute;
+    top: -10px;
+    left: 20%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: 11px solid #fff;
+    z-index: 21;
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.3)) drop-shadow(0px 4px 12px rgba(0, 0, 0, 0.3));
+}
+
+.isRead {
+    border-radius: 50px;
+    padding: 3px;
+    background: var(--primary-color);
+}
+
+.notificationText {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    width: 230px;
+}
+
+.optionButton {
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s;
+    z-index: 25;
+}
+
+.dropdownItem:hover .optionButton {
+    opacity: 1;
+}
+.optionButton:hover {
+    background-color: #e5e7eb;
+}
+
+.notifyAllBtn {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background-color: white;
+}
+
+.notifyAllBtn:hover {
+    background-color: var(--primary-color);
+    color: white;
+}

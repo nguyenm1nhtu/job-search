@@ -1,0 +1,23 @@
+.container {
+    margin-top: var(--header-height);
+    width: 100vw;
+    background-color: #f3f5f7;
+}
+
+.overlay {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: var(--top-section-width);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.body {
+    width: 100%;
+    height: calc(100vh - var(--header-height) - var(--top-section-height));
+    overflow-y: auto;
+}

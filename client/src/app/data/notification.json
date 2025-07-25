@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "href": "#",
+        "title": "Bạn đã ứng tuyển thành công vào vị trí [Tên công việc] tại [Công ty]!",
+        "category": "application",
+        "isRead": false,
+        "createdAt": "2025-05-10T10:00:00Z"
+    },
+    {
+        "id": 2,
+        "href": "#",
+        "title": "Bạn được mời phỏng vấn cho vị trí [Tên công việc]!",
+        "category": "interviewed",
+        "isRead": true,
+        "createdAt": "2025-05-12T12:30:00Z"
+    },
+    {
+        "id": 3,
+        "href": "#",
+        "title": "Bạn đã ứng tuyển thành công vào vị trí [Tên công việc] tại [Công ty]!",
+        "category": "application",
+        "isRead": false,
+        "createdAt": "2025-05-01T10:00:00Z"
+    },
+    {
+        "id": 4,
+        "href": "#",
+        "title": "Bạn đã ứng tuyển thành công vào vị trí [Tên công việc] tại [Công ty]!",
+        "category": "application",
+        "isRead": false,
+        "createdAt": "2025-06-01T10:00:00Z"
+    },
+    {
+        "id": 5,
+        "href": "#",
+        "title": "Bạn đã ứng tuyển thành công vào vị trí [Tên công việc] tại [Công ty]!",
+        "category": "application",
+        "isRead": false,
+        "createdAt": "2025-06-01T10:00:00Z"
+    },
+    {
+        "id": 6,
+        "href": "#",
+        "title": "Bạn đã ứng tuyển thành công vào vị trí [Tên công việc] tại [Công ty]!",
+        "category": "application",
+        "isRead": false,
+        "createdAt": "2025-06-08T10:00:00Z"
+    },
+    {
+        "id": 7,
+        "href": "#",
+        "title": "Bạn đã ứng tuyển thành công vào vị trí [Tên công việc] tại [Công ty]!",
+        "category": "application",
+        "isRead": true,
+        "createdAt": "2025-06-07T08:50:00Z"
+    },
+    {
+        "id": 8,
+        "href": "#",
+        "title": "Bạn được mời phỏng vấn cho vị trí [Tên công việc]!",
+        "category": "interviewed",
+        "isRead": false,
+        "createdAt": "2025-06-02T12:30:00Z"
+    },
+    {
+        "id": 9,
+        "href": "#",
+        "title": "Bạn được mời phỏng vấn cho vị trí [Tên công việc]!",
+        "category": "interviewed",
+        "isRead": false,
+        "createdAt": "2025-06-07T08:50:00Z"
+    },
+    {
+        "id": 10,
+        "imageSrc": "#",
+        "href": "#",
+        "title": "Tuyệt lắm! Bạn vừa hoàn thành bài kiểm tra MBTI!",
+        "category": "mbti",
+        "isRead": false,
+        "createdAt": "2025-06-08T18:00:00Z"
+    }
+]
