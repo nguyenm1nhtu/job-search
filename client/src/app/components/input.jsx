@@ -16,7 +16,7 @@ export default function Input({
     ...rest
 }) {
     const inputVariants = {
-        register_login: 'w-full h-[4.5rem] text-2xl pr-[6rem] rounded-[5px] shadow-sm',
+        register_login: 'w-full h-[4.5rem] text-2xl pr-[6rem] rounded-[5px]',
     };
 
     const [showPassword, setShowPassword] = useState(false);

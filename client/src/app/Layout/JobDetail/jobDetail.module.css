@@ -1,0 +1,20 @@
+.container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.searchBarContainer {
+    padding: 20px 120px;
+    margin-top: var(--header-height);
+    background-color: var(--primary-color);
+}
+
+.overlay {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}

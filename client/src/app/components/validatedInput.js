@@ -10,9 +10,7 @@ export default function validateField(field, value, formData = undefined, contex
         if (words.length < 2) {
             return 'Tên đăng nhập chứa ít nhất 2 từ.';
         }
-        if (words.some((word) => word.length < 2)) {
-            return 'Mỗi từ trong tên đăng nhập phải có ít nhất 2 ký tự.';
-        }
+
         if (!/^[a-zA-Z\s]+$/.test(value)) {
             return 'Tên đăng nhập chỉ chứa chữ cái và khoảng trắng.';
         }
